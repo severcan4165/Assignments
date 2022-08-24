@@ -47,7 +47,6 @@ nav{
 }
 .main1{
     display: flex;
-    height:calc(100vh - 330px);
     flex-wrap: wrap;
   
 }
@@ -55,6 +54,8 @@ nav{
     width: 33.33334%;
     background-color:var(--tropikal-sari) ;
     text-align: center;
+    height:calc(100vh - 330px);
+
 
 
 }
@@ -62,6 +63,8 @@ nav{
     width: 33.33334%;
     background-color:var(--tropikal-yesil1) ;
     text-align: center;
+    height:calc(100vh - 330px);
+
 
 
 
@@ -71,6 +74,8 @@ nav{
     width: 33.33334%;
     background-color:var(--tropikal-yesil2) ;
     text-align: center;
+    height:calc(100vh - 330px);
+
 
 
 
@@ -85,14 +90,11 @@ nav{
     text-align: center;
     padding: 1rem;
 
-
-
 }
 .bolum5{
     width: 50%;
     background-color:var(--mavi1) ;
     text-align: center;
-
     padding: 1rem;
 
 
