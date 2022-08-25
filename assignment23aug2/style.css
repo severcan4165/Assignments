@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(60deg,rgba(152, 244, 250, 1),rgba(7, 67, 115, 1));
+}
+header{
+    border-radius: 10px;
+    height: 3rem;
+    width: 70%;
+    background-image: linear-gradient(to right, #1BFFFF, #2E3192);
+    margin: 6rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 35%;
+    height: 3rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-grow: 2;
+
+    
+}
+.logo img{
+    padding: 0.2rem;
+    transition: all 0.7s;
+}
+
+.logo img:hover{
+    transform: scale(1.2);
+}
+.menu{
+
+    width: 30%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 15px gray;
+    border: 1px solid black;
+    background-color: rgb(172, 255, 117);
+    flex-grow: 1;
+    gap:0.8rem;
+    padding: 1rem;
+
+
+
+}
+.menu a{
+    color:darkblue;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 4.3rem;
+    padding: 7px 6px;
+    transition: all 0.8s;
+    text-decoration: none;
+    border-radius: 10px;
+    
+    
+}
+.menu a:hover{
+    background-color: #1EAE98;
+    color:white;
+    box-shadow: inset 1px 1px 8px black;
+    transform: scale(1.1);
+}
+.menu a:active{
+    color:red;
+}
+.icons{
+    padding-right:0.5rem ;
+    height: 3rem;
+    width: 35%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-grow: 2;
+
+}
+.icons i{
+    margin-right: 0.2rem;
+    padding: 0.1rem 0.6rem;
+    font-size: 1.2rem;
+    transition: all 0.8s;
+    border-radius: 7px;
+
+}
+.icons i:hover{
+    transform: scale(1.1);
+    background-color: aquamarine;
+    box-shadow: inset 1px 1px 4px black;
+    cursor: pointer;
+
+}
