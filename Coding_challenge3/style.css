@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 300px;
+    border: 2px groove black;
+    border-radius: 10px;
+    width: 400px;
+    margin: 100px auto 0;
+    text-align: center;
+    box-shadow: 5px 5px 9px darkblue;
+
+    background: rgb(0,36,36);
+background: linear-gradient(300deg, rgba(0,36,36,1) 0%, rgba(9,121,99,0.7567401960784313) 60%);
+
+
+}
+main img{
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    text-align: center;
+    border: 4px solid darkred;
+    box-shadow: 2px 2px 9px black;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
+main h1{
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+.spanh1{
+    color: yellow;
+    font-weight: 400;
+}
+main p{
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 0 1rem;
+    color: white;
+}
