@@ -1,0 +1,147 @@
+@import "theme.css";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    margin: 1rem;
+    font-family: var(--ff-monteserrat);   
+    color: black;
+    background-color: var(--gri-8);
+
+}
+
+h1{
+    width: 18rem;
+    background-color: var(--koyu-kirmizi);
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 1.3rem;
+    text-align: center;
+     margin-bottom: 1rem;
+     margin-top:3rem;
+
+
+
+}
+header{
+    background-color: var(--acik-yesil);
+    padding:1rem;
+    margin-bottom: 1rem;
+
+
+
+
+}
+ header p{
+    font-size: 1.4rem;
+
+ }
+ .navbar{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--mavi1);
+    padding:0.5rem;
+    gap:2rem 2rem;
+    margin-bottom: 1rem;
+
+ }
+ .navbar a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    justify-content:center ;
+    color: var(--beyaz);
+    padding: 1rem;
+    transition: all 1s;
+
+
+
+ }
+ .navbar a:hover{
+    background-color: var(--gri-6);
+    color: black;
+    
+ }
+ .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+ .main .col{
+    margin-bottom: 1rem;
+    text-align: center;
+    padding:  1rem;
+ }
+ .col1{
+    width: 35%;
+    background-color: var(--gri-3);
+ }
+ .col2{
+    width: 20%;
+    background-color: var(--gri-4);
+ }
+
+ .col3{
+    width: 30%;
+    background-color: var(--gri-5);
+ }
+
+ .col4{
+    width: 15%;
+    background-color: var(--gri-6);
+ }
+
+ @media screen and (min-width:0px) and (max-width:600px) {
+    *{
+        color:white;
+    }
+    body{
+        background-color: var(--mor);
+        color: var(--beyaz);
+
+    }
+    h1{
+        width: 12rem;
+
+        font-size: 1.2rem;
+    }
+    header{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .navbar a:hover{
+        background-color: var(--gri-6);
+        color: black;
+    }
+    .main .col{
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width:600px) and (max-width:992px) {
+    *{
+        color:white;
+    }
+    body{
+        background-color: var(--acik-kirmizi);
+    }
+    h1{
+        width: 15rem;
+
+        font-size: 1.5rem;
+    }
+    .main .col{
+        width: 50%;
+    }
+
+}
