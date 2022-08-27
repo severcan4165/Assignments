@@ -13,9 +13,12 @@ padding: 1rem;
  box-shadow: inset 1px 1px 7px green;
 }
  .container img{
+    margin: 12px 12px 5px 0;
     width: 150px;
     float: left;
-    padding: 27px 15px 20px 0;
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 8px black;
  }
 .container::after{
     content: "";
@@ -24,7 +27,7 @@ padding: 1rem;
 }
 .container h1{
     color: rgb(139, 0, 65);
-    margin-top: 17px;
+    margin-top: 12px;
     text-align: center;
 
 }
