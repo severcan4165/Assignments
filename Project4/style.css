@@ -89,6 +89,7 @@ main{
 .imgcontainers{
     width: 20%;
     transition: all 0.8s;
+    opacity: 0.8;
 
 
 }
@@ -106,12 +107,14 @@ main{
 }
 .imgcontainers:hover{
     transform: scale(1.2);
+    opacity: 1;
 
 
 }
 .imgcontainers:hover .imgcontaineric>img{
     box-shadow: 5px 5px 60px rgb(32, 5, 66);
     cursor: pointer;
+   
 
 
 }
@@ -130,6 +133,7 @@ main{
 .names{
     text-align: center;
     font-size: 1.4rem;
+    font-weight: 400;
 
 
 }
@@ -154,7 +158,7 @@ main{
 @media screen and (min-width:402px) and (max-width:552px){
 
     .below{
-        margin-top:100rem;
+        margin-top:0;
      
     }
     .container{
