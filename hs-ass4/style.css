@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 3rem);
+    grid-template-rows: repeat(5, 3rem);
+    background-color:black ;
+    gap:0.6rem;
+    padding:10rem 1rem 1rem 1rem;
+    width: 16.5rem;
+    height: 30rem;
+    margin: 10rem auto;
+    border-radius: 1.3rem;
+}
+.content{
+    padding: 0.1rem;
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.num{
+    background-color: gray;
+    color:white
+
+}
+.islem{
+    background-color: goldenrod;
+    color: white;
+
+}
+.content1, .content2, .content3{
+    background-color: lightgray;
+    color: black;
+}
+.numspan{
+ /* grid-area:5/1/5/3; */
+ grid-column-start: 1;
+ grid-column-end: 3;
+ grid-row-start: 5;
+ grid-row-end: 5;
+ width: 6.7rem;
+ height: 3rem;
+ border-radius: 2rem;
+}
