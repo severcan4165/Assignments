@@ -74,6 +74,7 @@ main{
     font-size: 1.2rem;
     font-weight: 500;
     letter-spacing: 0.09rem;
+    max-width: 1200px;
    
 }
 .container{
@@ -88,7 +89,7 @@ main{
 }
 .imgcontainers{
     width: 20%;
-    transition: all 0.8s;
+    transition: all 0.9s;
     opacity: 0.8;
 
 
@@ -187,3 +188,7 @@ main{
         width: 25%;
     }
 } 
+
+
+/* max-width: 1300px;
+min-width:380px ; */
