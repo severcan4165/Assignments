@@ -1,3 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 .carousel-item{
     height: 100vh;
 }
+
+.logos {
+    text-align: center;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding-top: 2rem;
+  }
+  .logos img {
+    width: 200px;
+    height: 100px;
+  }
+
+  .contact-us {
+    background-image: url("./img/map.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+  }
