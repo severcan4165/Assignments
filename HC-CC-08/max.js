@@ -55,3 +55,42 @@ for(x of zz){
 }
 console.log(maximum(k));
 
+//! all possible quantity of elements
+// let arr = [1,2,7,6,4,8,3];
+// let arr = [1,3,-1,-3,5,3,6,7];
+// let arrNew = [];
+// let count = 0;
+// let k =2;
+// let temp= 0;
+// let temp2= 0;
+// let aaa = {};
+// let zz = [];
+
+// while(k < arr.length){
+//     count=k;
+//     while(temp2 <= (arr.length-k)){
+//         count=k;
+//         while(count>0){
+//             arrNew.push(arr[temp]);
+//             temp++;
+//             count--;       
+//         }
+//      console.log(arrNew);
+//       zz.push(arrNew);
+//       arrNew=[];     
+//         temp2++;
+//         temp = temp2;
+//     }     
+//     temp = 0;
+//     temp2 =0;
+//      k++;    
+// }   
+// console.log(zz)
+
+// let maxim = [];
+// for(x of zz){
+//     x = x.sort((a,b)=>b-a);
+//     maxim.push(x[0])
+// }
+// console.log(maxim)
+
